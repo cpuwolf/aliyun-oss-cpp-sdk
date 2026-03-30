@@ -81,7 +81,7 @@ else()
 	include(FindOpenSSL)
 
 	if(NOT CURL_FOUND)
-		message(FATAL_ERROR "Could not find curl")
+		message("Could not find curl")
 	endif()
 
 	if(NOT OPENSSL_FOUND)
