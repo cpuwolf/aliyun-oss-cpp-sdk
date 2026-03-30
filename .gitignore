@@ -3,3 +3,4 @@
 .vscode
 build
 winbuild
+sdk/include/alibabacloud/oss/Config.h

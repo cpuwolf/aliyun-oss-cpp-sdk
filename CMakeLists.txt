@@ -85,7 +85,7 @@ else()
 	endif()
 
 	if(NOT OPENSSL_FOUND)
-		message(FATAL_ERROR "Could not find openssl")
+		message("Could not find openssl")
 	endif()
 
 	set(CRYPTO_LIBS ${OPENSSL_LIBRARIES})
